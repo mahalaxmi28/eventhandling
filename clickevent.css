@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #a5b4fc, #fbcfe8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.click-event-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+#message {
+  color: #4c1d95;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+#clickBtn {
+  background-color: #6366f1;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#clickBtn:hover {
+  background-color: #4338ca;
+  transform: scale(1.05);
+}
